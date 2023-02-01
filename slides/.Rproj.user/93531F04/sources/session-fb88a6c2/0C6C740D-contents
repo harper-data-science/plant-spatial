@@ -1,0 +1,150 @@
+---
+title: "Plant ch 01"
+author: "Ed Harris"
+format: revealjs
+editor: visual
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Spatial Data in R
+
+<br>
+
+<center>
+
+![Plant 2019](img/cover.png){width=35%}
+
+
+</center>
+
+## Spatial Data in R
+
+<br>
+
+-   Ch 01:
+    -   Overview
+    -   The datasets
+-   Ch 02
+    -   R tricks
+    -   Problems
+
+## Sensors and satellites
+
+<center>
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/fig01.png")
+```
+
+</center>
+
+## Sensors and satellites
+
+<br>
+
+-   Increase in sensors, increase in available data
+
+-   Statistical methods and software
+
+-   So-called `spatial data`
+
+-   subtleties, but basically geolocated, x and y coordinates
+
+-   CRS (Coordinate Reference System\[s\])
+
+## Special problems in spatial data
+
+<br>
+
+Statistical properties
+
+1)  Spatial data has a lot of data points, so `power` is large even for `tiny effect sizes`, thus the Null is always rejected (even if practically meaningless)
+
+2)  Spatial data points near each other are almost never `independent`, violating the common assumption that they are (a/k/a `spatial autocorrelation`)
+
+## Special problems in spatial data
+
+<br>
+
+Ecological properties
+
+-   Low 'ecological resolution'
+
+-   High 'data resolution'
+
+-   Complex relationships
+
+(next slide shows **Soil moisture**, **Veg reflectance**, **Yield**...)
+
+## Special problems in spatial data
+
+<center>
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics("img/fig02.png")
+```
+
+</center>
+
+## Cressie's classification
+
+<br>
+
+1)  **Geostatistical data** x-y point data with a continuous measure (like soil moisture). Extrapolation between measured points is a goal.
+
+2)  **Areal data** points or polygons representing a uniform unit of measure (like the crop planted within a field boundary)
+
+3)  **Point pattern data** what is the spatial pattern (like whether pest outbreaks are random or spatially explained by some feature)
+
+## Geostatistical versus Areal
+
+<center>
+
+```{r, echo=FALSE, out.width="70%", fig.cap=""}
+knitr::include_graphics("img/fig03.png")
+```
+
+</center>
+
+## Components of spatial data
+
+<br>
+
+1)  Spatial component (x-y)
+
+2)  Attribute component (something measured or classified)
+
+3)  Scale and sample size (for measuring earthworms, is 1m or 1000m better to sample?)
+
+4)  **Vectore data** versus **Raster data**
+
+## Datasets
+
+Ex: dataset 1 yellow billed cuckoo habitat
+
+What spatial featured are associated with presence in this species?
+
+<center>
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/ybcuckoo.jpg")
+```
+
+</center>
+
+## Datasets
+
+Ex: dataset 1 yellow billed cuckoo habitat
+
+What spatial featured are associated with presence in this species?
+
+<center>
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/fig05.png")
+```
+
+</center>
