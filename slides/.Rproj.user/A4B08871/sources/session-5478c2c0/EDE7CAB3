@@ -1,0 +1,31 @@
+{
+    "id": "EDE7CAB3",
+    "path": "D:/Dropbox/git-harper-data-science/plant-spatial/slides/plant-ch-02.qmd",
+    "project_path": "plant-ch-02.qmd",
+    "type": "quarto_markdown",
+    "hash": "3486295263",
+    "contents": "",
+    "dirty": false,
+    "created": 1675249107983.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "cursorPosition": "84,0",
+        "scrollLine": "71",
+        "rmdVisualModeLocation": "191:115.92741394042969",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1675251160,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1675251160855,
+    "read_only": false,
+    "read_only_alternatives": []
+}

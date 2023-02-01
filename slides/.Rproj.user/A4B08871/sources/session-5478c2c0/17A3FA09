@@ -1,26 +1,26 @@
 {
-    "id": "2024B9B4",
-    "path": "D:/Dropbox/git-harper-data-science/plant-spatial/code-and-data/code-book/Chapter 01/1.1 original.r",
+    "id": "17A3FA09",
+    "path": "D:/Dropbox/git-harper-data-science/plant-spatial/code-and-data/plant-code/Exercises/2.8 Exercises.r",
     "project_path": null,
     "type": "r_source",
-    "hash": "1971690278",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1673426873213.0,
+    "created": 1675253620544.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 10,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,0",
-        "scrollLine": "22"
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1646689950,
+    "lastKnownWriteTime": 1528874432,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1646689950,
+    "last_content_update": 1528874432,
     "read_only": false,
     "read_only_alternatives": []
 }
